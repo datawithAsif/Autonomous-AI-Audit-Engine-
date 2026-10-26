@@ -15,6 +15,13 @@ In corporate financial auditing, professional audit firms (Chartered Accountants
 
 This project delivers an **Autonomous AI Assurance Layer** that sits between raw client records (paper vouchers, bank PDFs, and general ledgers) and final statutory audit working papers.
 
+<p align="center">
+  <img src="../diagrams/forensic_audit_workflow.png" alt="End-to-End Forensic Audit Lifecycle & Tamper-Evident Evidence Chain Blueprint" width="100%">
+</p>
+
+<details>
+<summary><b>📐 View Architectural Flow Specification (Mermaid)</b></summary>
+
 ```mermaid
 flowchart LR
     S1["Stage 1: Capture<br>Raw Evidence Ingestion"] --> S2["Stage 2: Extract<br>Multimodal Vision OCR"]
@@ -30,6 +37,8 @@ flowchart LR
     style S5 fill:#eff6ff,stroke:#2563eb,stroke-width:1px
     style S6 fill:#f0fdf4,stroke:#16a34a,stroke-width:1px
 ```
+
+</details>
 
 ---
 

@@ -12,6 +12,13 @@ Large Language Models (LLMs) are inherently probabilistic, whereas statutory fin
 
 During research and development in **Google AI Studio**, this project formulated a robust **Prompt Architecture and Safety Guardrail Framework**. The architecture transforms multimodal LLMs into disciplined, deterministic analytical engines capable of guiding auditors through complex statutory workflows.
 
+<p align="center">
+  <img src="../diagrams/multi_agent_coordination.png" alt="Multi-Agent Deliberation, Cross-Verification & Consensus Topology Blueprint" width="100%">
+</p>
+
+<details>
+<summary><b>📐 View Architectural Flow Specification (Mermaid)</b></summary>
+
 ```mermaid
 flowchart TD
     subgraph Prompt_Input ["Prompt Context & Evidence"]
@@ -35,6 +42,8 @@ flowchart TD
     G2 --> OUT
     OUT --> G3
 ```
+
+</details>
 
 ---
 

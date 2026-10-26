@@ -19,6 +19,13 @@ Combining an **M.Sc. in Applied Mathematics and Computational Science (North Sou
 
 The architecture pairs **Multimodal Document Vision** (extracting bilingual receipts and degraded VAT forms) with **Autonomous Agentic AI** (reconciling general ledgers, testing 100% of transactions via Benford's Law, and auto-balancing statutory balance sheet lead schedules).
 
+<p align="center">
+  <img src="diagrams/audit_system_topology.png" alt="Multi-Agent Autonomous Audit Engine Topology Blueprint" width="100%">
+</p>
+
+<details>
+<summary><b>📐 View Architectural Flow Specification (Mermaid)</b></summary>
+
 ```mermaid
 flowchart TD
     %% Professional End-to-End System Architecture
@@ -64,6 +71,8 @@ flowchart TD
     style Stage3 fill:#fefce8,stroke:#ca8a04,stroke-width:1px
     style Stage4 fill:#f0fdf4,stroke:#16a34a,stroke-width:1px
 ```
+
+</details>
 
 ---
 
@@ -115,10 +124,11 @@ autonomous_ai_audit_engine/
 │   ├── 02_multimodal_document_vision.md       # Bilingual Bengali/English OCR & VAT extraction
 │   ├── 03_forensic_engine_and_benfords_law.md # 100% ledger coverage, Benford's Law & auto-balancing
 │   └── 04_prompt_engineering_and_guardrails.md # Google AI Studio prompt design & deterministic safety
-├── diagrams/                                  # High-resolution Mermaid architectural diagrams
-│   ├── audit_system_topology.mermaid
-│   ├── multi_agent_coordination.mermaid
-│   └── forensic_audit_workflow.mermaid
+├── diagrams/                                  # High-resolution CAD Blueprints & Flow Specs
+│   ├── audit_system_topology.png              # Master Multi-Agent Architecture CAD Blueprint
+│   ├── multi_agent_coordination.png           # Deliberation & Consensus Topology Blueprint
+│   ├── forensic_audit_workflow.png            # End-to-End Forensic Lifecycle Blueprint
+│   └── *.mermaid                              # Raw Mermaid architecture definitions
 └── .gitignore                                 # Clean gitignore
 ```
 
