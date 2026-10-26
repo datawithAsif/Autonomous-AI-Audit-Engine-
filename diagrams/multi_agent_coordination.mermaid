@@ -1,0 +1,34 @@
+flowchart TD
+    %% Multi-Agent Coordination Architecture in Autonomous Audit
+
+    subgraph Controller ["Central Orchestration Controller"]
+        ORCH["Audit Engagement Orchestrator<br>Manages engagement lifecycle and task routing"]
+    end
+
+    subgraph Specialized_Agents ["Specialized Domain AI Agents"]
+        AGENT_INGEST["Extraction & OCR Agent<br>Parses handwritten Bengali and structured VAT tables"]
+        AGENT_COMPLY["Regulatory Compliance Agent<br>Validates withholding tax, VAT rules, and vendor TIN/BIN"]
+        AGENT_FORENSIC["Forensic Audit Agent<br>Scans full ledger for Benford's Law and cash-split anomalies"]
+        AGENT_BALANCE["Reconciliation & Lead Agent<br>Cross-casts accounts and balances BS-1 to BS-18 schedules"]
+    end
+
+    subgraph Verification_Gate ["Auditor Judgment & Approval Gate"]
+        AUDITOR["Chartered Accountant / Engagement Partner<br>Retains exclusive authority to approve and close engagement"]
+        AUDIT_TRAIL["Immutable Audit Log<br>Preserves mathematical lineage and document coordinates"]
+    end
+
+    ORCH --> AGENT_INGEST
+    ORCH --> AGENT_COMPLY
+    ORCH --> AGENT_FORENSIC
+    ORCH --> AGENT_BALANCE
+
+    AGENT_INGEST --> AUDIT_TRAIL
+    AGENT_COMPLY --> AUDIT_TRAIL
+    AGENT_FORENSIC --> AUDIT_TRAIL
+    AGENT_BALANCE --> AUDIT_TRAIL
+
+    AUDIT_TRAIL --> AUDITOR
+
+    style Controller fill:#f8fafc,stroke:#94a3b8,stroke-width:1px
+    style Specialized_Agents fill:#f0f9ff,stroke:#0284c7,stroke-width:1px
+    style Verification_Gate fill:#f0fdf4,stroke:#16a34a,stroke-width:1px

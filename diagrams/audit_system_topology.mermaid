@@ -1,0 +1,43 @@
+flowchart TD
+    %% Enterprise Autonomous AI Audit & Assurance Architecture
+
+    subgraph Stage1 ["Stage 1: Multi-Format Evidence Ingestion"]
+        VOUCHERS["Paper Vouchers & Invoices<br>Scanned Bengali & English receipts"]
+        BANKS["Bank Statements & Ledgers<br>Dual-language PDF & ERP exports"]
+        GL["General Ledger & Trial Balance<br>High-volume transactional CSV / XLSX"]
+    end
+
+    subgraph Stage2 ["Stage 2: Dual Cognitive AI Core"]
+        VISION["Multimodal Document Vision<br>Bilingual Bengali/English OCR extraction<br>(Mushak-6.3 VAT forms with 98.4% accuracy)"]
+        AGENTIC["Autonomous Agentic Assurance Core<br>Multi-agent coordination and tax rule reasoning"]
+        
+        VOUCHERS --> VISION
+        BANKS --> VISION
+        VISION --> AGENTIC
+        GL --> AGENTIC
+    end
+
+    subgraph Stage3 ["Stage 3: Forensic & Reconciliation Engine"]
+        BENFORD["Forensic Anomaly Radar<br>100% ledger coverage via Benford's Law analysis"]
+        COMPLIANCE["Tax & VAT Verification Engine<br>Automated vendor TIN and 18-digit BIN checks"]
+        BALANCE["Mathematical Balancing Engine<br>Auto-balances BS-1 to BS-18 lead schedules (Delta = 0.00)"]
+        
+        AGENTIC --> BENFORD
+        AGENTIC --> COMPLIANCE
+        AGENTIC --> BALANCE
+    end
+
+    subgraph Stage4 ["Stage 4: Audit Partner Workstation & Sign-Off"]
+        WORKPAPERS["Statutory Lead Schedules<br>Source-linked working papers with pixel provenance"]
+        DVS["Document Verification Ready<br>Pre-checked compliance for partner sign-off"]
+        
+        BENFORD --> WORKPAPERS
+        COMPLIANCE --> WORKPAPERS
+        BALANCE --> WORKPAPERS
+        WORKPAPERS --> DVS
+    end
+
+    style Stage1 fill:#f8fafc,stroke:#94a3b8,stroke-width:1px
+    style Stage2 fill:#f0f9ff,stroke:#0284c7,stroke-width:1px
+    style Stage3 fill:#fefce8,stroke:#ca8a04,stroke-width:1px
+    style Stage4 fill:#f0fdf4,stroke:#16a34a,stroke-width:1px

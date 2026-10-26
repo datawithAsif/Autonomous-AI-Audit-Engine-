@@ -1,0 +1,11 @@
+# Version control ignore rules for AI Audit Engine
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.swp
+*~
+
+# Exclude local editor configs
+.vscode/
+.idea/
