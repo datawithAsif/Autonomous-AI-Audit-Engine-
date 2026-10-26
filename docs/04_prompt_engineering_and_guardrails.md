@@ -17,7 +17,7 @@ During research and development in **Google AI Studio**, this project formulated
 </p>
 
 <details>
-<summary><b>📐 View Architectural Flow Specification (Mermaid)</b></summary>
+<summary><b>View Architectural Flow Specification (Mermaid)</b></summary>
 
 ```mermaid
 flowchart TD

@@ -20,7 +20,7 @@ This project delivers an **Autonomous AI Assurance Layer** that sits between raw
 </p>
 
 <details>
-<summary><b>📐 View Architectural Flow Specification (Mermaid)</b></summary>
+<summary><b>View Architectural Flow Specification (Mermaid)</b></summary>
 
 ```mermaid
 flowchart LR

@@ -18,7 +18,7 @@ An Autonomous AI Assurance Engine bridging raw client records (bilingual paper v
 </p>
 
 <details>
-<summary><b>📐 View Architectural Flow Specification (Mermaid)</b></summary>
+<summary><b>View Architectural Flow Specification (Mermaid)</b></summary>
 
 ```mermaid
 flowchart TD
@@ -92,10 +92,10 @@ flowchart TD
 
 ## Business Impact & ROI
 
-* ⏱️ **75% Audit Time Reduction:** Cuts manual schedule preparation from **60 hours to 15 hours per client engagement**.
-* 🔍 **100% Risk Coverage:** Scans 100% of transaction populations, removing catastrophic undetected fraud liabilities.
-* 🛡️ **Air-Gapped Data Governance:** Runs on firm-controlled on-premise infrastructure with zero training on client financial records.
-* 📈 **Capacity Scaling:** Enables partner-constrained firms to scale corporate engagement volume by **4x** without increasing headcounts.
+* **75% Audit Time Reduction:** Cuts manual schedule preparation from **60 hours to 15 hours per client engagement**.
+* **100% Risk Coverage:** Scans 100% of transaction populations, removing catastrophic undetected fraud liabilities.
+* **Air-Gapped Data Governance:** Runs on firm-controlled on-premise infrastructure with zero training on client financial records.
+* **Capacity Scaling:** Enables partner-constrained firms to scale corporate engagement volume by **4x** without increasing headcounts.
 
 ---
 
