@@ -1,9 +1,7 @@
 # Autonomous AI Financial Audit & Assurance Engine
 
-> **Author:** AI Engineer  
-> **Education:**  
-> • **M.Sc. in Applied Mathematics and Computational Science (AMCS)** — North South University  
-> • **B.S.S. in Economics & Finance** — BRAC University  
+> **Author:** AI Developer  
+> **Education:** **B.S.S. in Economics & Finance** — BRAC University  
 > **Core Focus:** Agentic AI, Multimodal Document Intelligence, Financial Forensics & LLM Guardrails  
 > **Repository Nature:** 100% Architectural System Designs, RFCs & Production Benchmarks (Zero Proprietary Code)
 
